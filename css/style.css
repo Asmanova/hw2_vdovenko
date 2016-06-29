@@ -1,0 +1,109 @@
+.wrapper {
+  margin: 50px 50px 60px;
+  height: 840px;
+  position: relative;
+}
+.logo {
+  display: block;
+  height: 100%;
+  margin-bottom: 40px;
+}
+.top-menu {
+  height: 42px;
+  width: 968px;
+  background-image: url(../img/top-menu.png);
+}
+.top-menu>a {
+display: inline-block;
+width: 108px;
+padding-right: 27px;
+text-align: center;
+line-height: 42px;
+color: white;
+text-decoration: none;
+font-family: "Open Sans";
+font-size: 14.67px;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.top-menu>a:hover {
+  line-height: 40px;
+  background-image: url(../img/hover-top.png);
+  background-repeat: no-repeat;
+}
+.menu {
+  float: left;
+  margin-top: 40px;
+  margin-right: 48px;
+  width: 240px;
+  border: 0.5px solid #c8c8c8;
+}
+.menu>ul>li {
+  height: 40px;
+  border-bottom: 0.5px solid #c8c8c8;
+  text-align: left;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-size: 13.33px;
+}
+.menu>ul>li:last-child {
+  border-bottom: none;
+}
+.menu>ul>li>a {
+  padding-left: 24px;
+  display: block;
+  color: #656363;
+  text-decoration: none;
+}
+.menu>ul>li>a:hover {
+  padding-left: 36px;
+  color: #2c2c2c;
+  background-color: #f9f9f9;
+}
+.content {
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 62px;
+  width: 675px;
+}
+.content>div {
+  padding-top: 40px;
+  padding-left: 24px;
+  font-family: "Open Sans";
+  	font-size: 13.33px;
+  	/*font-style: normal;
+  	font-variant: normal;
+  	font-weight: 400;*/
+  	line-height: 20px;
+    color: #2c2c2c;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 966px;
+  background-image: url(../img/footer.png);
+}
+.footer>a {
+  display: inline-block;
+  width: 108px;
+  padding-right: 27px;
+  text-align: center;
+  line-height: 40px;
+  color: #2c2c2c;
+  text-decoration: none;
+  font-size: 13.33px;
+  font-family: "Open Sans";
+}
+.footer>a:hover {
+  line-height: 40px;
+  text-decoration: underline;
+}
+.footer>p {
+  position: absolute;
+  right: 25px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: right;
+  font-family: "Open Sans";
+  font-size: 13.33px;
+}
